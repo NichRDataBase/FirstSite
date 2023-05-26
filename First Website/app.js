@@ -4,7 +4,7 @@ const original = document.querySelector(".full-image");
 const imgText = document.querySelector(".caption");
 
 previews.forEach((preview)=>{
-    previews.addEventListener("click",() =>{
+    preview.addEventListener("click", () =>{
         modal.classList.add("open");
         original.classList.add("open");
 
